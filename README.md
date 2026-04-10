@@ -12,9 +12,7 @@ This project demonstrates advanced frontend skills including drag-and-drop inter
 
 ## 📸 Preview
 
-## 📸 Preview
-
-![Mini Jira Board Preview](./public/screenshot.png)
+![Mini Jira Board Preview](./screenshot.png)
 
 ---
 
