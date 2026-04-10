@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  color: #1e293b;
+  background: linear-gradient(135deg, #fef3c7 0%, #fee2e2 100%);
+  min-height: 100vh;
+}
+
+/* nice inputs and textareas */
+input, textarea, select {
+  transition: all 0.25s ease;
+  border-color: #e2e8f0 !important;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #94a3b8 !important;
+  box-shadow: 0 0 0 3px rgba(148, 163, 184, 0.1) !important;
+  background-color: #f8fafc;
+}
+
+/* smoother buttons */
+button {
+  transition: all 0.2s ease;
+  font-weight: 600;
+}
+
+button:active {
+  transform: scale(0.98);
+}
